@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/backgroundView"
+    tools:context="com.akili.etc.triviacrashsaga.CategorySelectActivity"
+    android:clickable="true">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:id="@+id/categoryText"
+        android:layout_gravity="center"
+        android:text="Amoeba"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="0dp"
+        android:background="#36a0a4"
+        android:textColor="#ffffff"
+        android:gravity="center_horizontal|center_vertical" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns = "0,1"
+        android:layout_below="@+id/categoryText"
+        android:id="@+id/tableLayout"
+        android:layout_marginTop="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+
+                <ImageButton
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/categoryButton1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Topic 1"
+                    android:id="@+id/categoryName1"
+                    android:clickable="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_gravity="center"
+                    android:layout_below="@+id/categoryButton1"
+                    android:textSize="25dp"
+                    android:textColor="#ffffff"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+
+                <ImageButton
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/categoryButton2"
+                    android:clickable="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="locked"
+                    android:id="@+id/categoryName2"
+                    android:layout_below="@+id/categoryButton2"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="25dp"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+
+                <ImageButton
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/categoryButton3"
+                    android:clickable="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="locked"
+                    android:id="@+id/categoryName3"
+                    android:layout_below="@+id/categoryButton3"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="25dp"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="240dp">
+
+                <ImageButton
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/categoryButton4"
+                    android:clickable="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="locked"
+                    android:id="@+id/categoryName4"
+                    android:layout_below="@+id/categoryButton4"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="25dp"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relativeLayout">
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/challengeButton"
+            android:src="@drawable/quiz_start_doctor_challenge"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Challenge"
+            android:id="@+id/challengeTag"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_below="@+id/challengeButton"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/back_button"
+            android:src="@drawable/back"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_marginTop="29dp"
+            android:layout_marginStart="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/onboarding_background"
+    tools:context="com.akili.etc.triviacrashsaga.OnBoardingFinishActivity">
+
+    <TextView android:text="Well done!\n\nNow, gain more skills by playing Solo mode, or play with friends by playing Party Mode.\n\nAll the best!"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginTop="154dp"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <info.hoang8f.widget.FButton
+        fbutton:buttonColor="@color/trivia_quiz_next_button_color"
+        fbutton:shadowColor="@color/trivia_quiz_next_button_shadow_color"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="15dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/thanksButton"
+        android:text = "Thanks Chamy!"
+        android:textColor = "#000000"
+        android:textSize = "18dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="-30dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akili.etc.triviacrashsaga.SoloChallenge">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView2"
+        android:scaleType="fitXY"
+        android:src="@drawable/solo_challenge_background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor Challenge!"
+        android:id="@+id/challengeTitleView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/category_doctor_color"
+        android:paddingTop="15dp"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You seem to be interested in Doctors.\nThink you can be one?\n\nDoctors have to work hard to find the correct answer. Try this challenger to practise perseverance!"
+        android:id="@+id/challengeBodyView"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/category_doctor_color"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:layout_below="@+id/challengeTitleView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <info.hoang8f.widget.FButton
+        fbutton:buttonColor="@color/trivia_quiz_answer_color"
+        fbutton:shadowColor="@color/trivia_quiz_answer_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="15dp"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:id="@+id/challengeNextButton"
+        android:text = "Next"
+        android:textColor = "#ffffff"
+        android:textSize = "24dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" />
+
+    <info.hoang8f.widget.FButton
+        fbutton:buttonColor="@color/trivia_quiz_answer_color"
+        fbutton:shadowColor="@color/trivia_quiz_answer_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="15dp"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:id="@+id/challengeAcceptButton"
+        android:text = "Accept"
+        android:textColor = "#ffffff"
+        android:textSize = "24dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignTop="@+id/challengeNextButton"
+        android:layout_alignParentStart="true" />
+
+    <info.hoang8f.widget.FButton
+        fbutton:buttonColor="@color/trivia_main_red"
+        fbutton:shadowColor="@color/trivia_main_red_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="15dp"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:id="@+id/challengeNoyNowButton"
+        android:text = "Not Now"
+        android:textColor = "#ffffff"
+        android:textSize = "24dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignTop="@+id/challengeNextButton"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

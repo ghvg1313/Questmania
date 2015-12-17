@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.akili.etc.triviacrashsaga" >
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+ To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" /> <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icn"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".QuizActivity"
+            android:label="@string/title_activity_quiz" >
+        </activity>
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="true"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".QuizStartActivity"
+            android:label="@string/title_activity_quiz_finish" >
+        </activity>
+        <activity
+            android:name=".QuizFinishActivity"
+            android:label="@string/title_activity_quiz_start" >
+        </activity>
+        <activity android:name=".SplashActivity" >
+        </activity>
+        <activity
+            android:name=".CategorySelectActivity"
+            android:label="@string/title_activity_category_select" >
+        </activity>
+        <activity
+            android:name=".QuizSummaryActivity"
+            android:label="@string/title_activity_quiz_summary" >
+        </activity>
+        <activity
+            android:name=".RootCategoryActivity"
+            android:label="@string/title_activity_root_category" >
+        </activity>
+        <activity
+            android:name=".SoloChallenge"
+            android:label="@string/title_activity_solo_challenge" >
+        </activity>
+        <activity
+            android:name=".QuizChallengeActivity"
+            android:label="@string/title_activity_quiz_challenge" >
+        </activity>
+        <activity
+            android:name=".PartyMode.AddPlayerActivity"
+            android:label="@string/title_activity_add_player" >
+        </activity>
+        <activity android:name=".PartyMode.PartyHintActivity" >
+        </activity>
+        <activity
+            android:name=".PartyMode.ChallengeCategorySelection"
+            android:label="@string/title_activity_challenge_category_selection" >
+        </activity>
+        <activity
+            android:name=".PartyMode.ChallengeInstructionActivity"
+            android:label="@string/title_activity_challenge_instruction" >
+        </activity>
+        <activity
+            android:name=".PartyMode.ChooseWinerActivity"
+            android:label="@string/title_activity_choose_winer" >
+        </activity>
+        <activity
+            android:name=".PartyMode.ChallengeResultActivity"
+            android:label="@string/title_activity_challenge_result" >
+        </activity>
+        <activity
+            android:name=".PartyMode.ChallengePreTextActivity"
+            android:label="@string/title_activity_challenge" >
+        </activity>
+        <activity
+            android:name=".PartyMode.ChallengeReadyActivity"
+            android:label="@string/title_activity_challenge_ready" >
+        </activity>
+        <activity android:name=".PartyMode.ChallengePlayerTurnActivity" >
+        </activity>
+        <activity android:name=".PartyMode.ChallengeDisqualifyActivity" >
+        </activity>
+        <activity
+            android:name=".PartyMode.GetPlayerNumber"
+            android:label="@string/title_activity_get_player_number" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".PartyMode.ChallengePersonalActivity"
+            android:label="@string/title_activity_challenge_personal" >
+        </activity>
+        <activity
+            android:name=".OnboardingActivity"
+            android:label="@string/title_activity_onboarding" >
+        </activity>
+        <activity
+            android:name=".OnboardindingCategorySelectionActivity"
+            android:label="@string/title_activity_onboardinding_category_selection" >
+        </activity>
+        <activity
+            android:name=".PartyMode.PersonalChallengeForumActivity"
+            android:label="@string/title_activity_personal_challenge_forum"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".OnBoardingFinishActivity"
+            android:label="@string/title_activity_on_boarding_finish" >
+        </activity>
+        <activity
+            android:name=".CreditActivity"
+            android:label="@string/title_activity_credit" >
+        </activity>
+    </application>
+
+</manifest>

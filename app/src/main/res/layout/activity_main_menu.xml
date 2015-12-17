@@ -1,0 +1,122 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <io.codetail.widget.RevealFrameLayout
+        android:id="@+id/container_frame"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/content_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:id="@+id/content_frame"
+        android:layout_height="match_parent"
+        android:background = "@drawable/background_main_menu"
+        tools:context="com.akili.etc.triviacrashsaga.MainMenuActivity">
+
+        <info.hoang8f.widget.FButton
+            fbutton:buttonColor="@color/trivia_quiz_answer_color"
+            fbutton:shadowColor="@color/trivia_quiz_answer_shadow"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="15dp"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:id="@+id/button3"
+            android:text = "I feel lucky"
+            android:textColor = "#ffffff"
+            android:textSize = "24dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="false"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="500dp" />
+
+        <info.hoang8f.widget.FButton
+            fbutton:buttonColor="@color/trivia_quiz_answer_color"
+            fbutton:shadowColor="@color/trivia_quiz_answer_shadow"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="15dp"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:id="@+id/button"
+            android:text = "Solo Play"
+            android:textColor = "#ffffff"
+            android:textSize = "24dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="120dp" />
+
+        <info.hoang8f.widget.FButton
+            fbutton:buttonColor="@color/trivia_quiz_answer_color"
+            fbutton:shadowColor="@color/trivia_quiz_answer_shadow"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="15dp"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:id="@+id/button2"
+            android:text = "Party Play"
+            android:textColor = "#ffffff"
+            android:textSize = "24dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="350dp" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/creditButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/credit_icon" />
+
+    </RelativeLayout>
+    </io.codetail.widget.RevealFrameLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:scrollbarThumbVertical="@android:color/transparent"
+        android:layout_width="@dimen/sliding_menu_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|bottom">
+
+        <LinearLayout
+            android:id="@+id/left_drawer"
+            android:orientation="vertical"
+            android:layout_width="@dimen/sliding_menu_width"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"
+            android:background="@android:color/transparent">
+        </LinearLayout>
+    </ScrollView>
+    <!--<ListView-->
+        <!--android:id="@+id/list_slidermenu"-->
+        <!--android:layout_width="240dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="start"-->
+        <!--android:choiceMode="singleChoice"-->
+        <!--android:divider="@color/list_divider"-->
+        <!--android:dividerHeight="1dp"-->
+        <!--android:listSelector="@drawable/list_selector"-->
+        <!--android:background="@color/list_background"/>-->
+
+</android.support.v4.widget.DrawerLayout>

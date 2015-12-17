@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_doctor"
+    android:id="@+id/backgroundView"
+    tools:context="com.akili.etc.triviacrashsaga.QuizFinishActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="380dp"
+            android:background="#ffffff">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:id="@+id/QuizFinishImageView"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="51dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doctor"
+                    android:id="@+id/categoryText"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="30dp"
+                    android:textColor="@color/category_doctor_color"
+                    android:layout_below="@+id/QuizFinishImageView" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Level 4"
+                    android:id="@+id/levelText"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="30dp"
+                    android:textColor="@color/category_doctor_color"
+                    android:layout_below="@+id/categoryText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Molecule Master"
+                    android:id="@+id/callerText"
+                    android:layout_marginTop="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="24dp"
+                    android:textColor="@color/category_doctor_color"
+                    android:layout_below="@+id/levelText" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time: 4:20   Bonus 5"
+                    android:id="@+id/infoView"
+                    android:textColor="@color/trivia_quiz_answer_color"
+                    android:textSize="25dp"
+                    android:layout_marginTop="5dp" />
+
+                <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:id = "@+id/scoreProgress"
+                    app:rcBackgroundPadding="10dp"
+                    app:rcMax="100"
+                    app:rcProgress="10"
+                    app:rcRadius="30dp"
+                    android:layout_below="@+id/infoView"
+                    app:rcProgressColor = "@color/custom_progress_golden"
+                    app:rcBackgroundColor = "@color/custom_progress_golden_background"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="30dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10% answered"
+                    android:id="@+id/scorePercentageTextView"
+                    android:layout_below="@+id/scoreProgress"
+                    android:textColor="@color/trivia_quiz_answer_color"
+                    android:textSize="25dp"
+                    android:layout_marginTop="5dp" />
+
+                <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:id = "@+id/answerProgress"
+                    android:layout_below="@+id/scorePercentageTextView"
+                    app:rcProgressColor = "@color/custom_progress_golden"
+                    app:rcBackgroundColor = "@color/custom_progress_golden_background"
+                    app:rcBackgroundPadding="10dp"
+                    app:rcMax="100"
+                    app:rcProgress="10"
+                    app:rcRadius="30dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10% answered"
+                    android:id="@+id/answerProgressTextView"
+                    android:layout_below="@+id/answerProgress"
+                    android:textColor="@color/trivia_quiz_answer_color"
+                    android:textSize="25dp"
+                    android:layout_marginTop="5dp" />
+
+                <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:id = "@+id/levelProgress"
+                    android:layout_below="@+id/answerProgressTextView"
+                    app:rcBackgroundPadding="10dp"
+                    app:rcMax="100"
+                    app:rcProgress="10"
+                    app:rcRadius="30dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="30dp"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Level Progress"
+                    android:id="@+id/levelPercentageTextView"
+                    android:layout_below="@+id/levelProgress"
+                    android:textColor="@color/trivia_quiz_answer_color"
+                    android:textSize="25dp"
+                    android:layout_marginTop="5dp" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/trivia_quiz_answer_color"
+            android:id="@+id/bottomBar">
+
+        </FrameLayout>
+
+        <info.hoang8f.widget.FButton
+                fbutton:buttonColor="@color/trivia_quiz_next_button_color"
+                fbutton:shadowColor="@color/trivia_quiz_next_button_shadow_color"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="5dp"
+                fbutton:cornerRadius="15dp"
+                android:textColor = "#000000"
+                android:textSize = "24dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:text="New Round"
+                android:id="@+id/replayButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="80dp" />
+
+        <info.hoang8f.widget.FButton
+                fbutton:buttonColor="@color/trivia_quiz_next_button_color"
+                fbutton:shadowColor="@color/trivia_quiz_next_button_shadow_color"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="5dp"
+                fbutton:cornerRadius="15dp"
+                android:textColor = "#000000"
+                android:textSize = "24dp"
+                android:layout_width="250dp"
+                android:layout_height="80dp"
+                android:text="Review"
+                android:id="@+id/summaryButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="@drawable/chamy_overlay"
+        android:layout_height="150dp"
+        android:id="@+id/onboardingView"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:text="Here you can see statistics and review answers."
+            android:id="@+id/onboardTextView"
+            android:width="310dp"
+            android:paddingTop="20dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:layout_gravity="end"
+            android:layout_marginRight="120dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+
+        <info.hoang8f.widget.FButton
+            fbutton:buttonColor="@color/trivia_quiz_next_button_color"
+            fbutton:shadowColor="@color/trivia_quiz_next_button_shadow_color"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="15dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/onboardButton"
+            android:text = "Next"
+            android:textColor = "#ffffff"
+            android:textSize = "18dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignBottom="@+id/onboardTextView"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

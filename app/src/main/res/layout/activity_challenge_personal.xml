@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/backgroundView"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_challenge_solo"
+    tools:context="com.akili.etc.triviacrashsaga.PartyMode.ChallengePersonalActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:id="@+id/playerNameTextView"
+        android:layout_gravity="center_horizontal"
+        android:lineSpacingMultiplier="1.0"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which Challenge is the best Listener?\nThe Moderator will clap..."
+        android:textSize="28sp"
+        android:textColor="#000000"
+        android:id="@+id/questionTextView"
+        android:layout_gravity="center_horizontal"
+        android:lineSpacingMultiplier="1.0"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <info.hoang8f.widget.FButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Done!"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/doneButton"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            fbutton:buttonColor="@color/challenge_quiz_button_p1"
+            fbutton:shadowColor="@color/challenge_quiz_button_p1"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="233dp" />
+    </RelativeLayout>
+
+</LinearLayout>

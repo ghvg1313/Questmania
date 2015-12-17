@@ -1,0 +1,277 @@
+<resources>
+    <string name="app_name">Questmania</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">Menu</string>
+    <string name="title_activity_quiz_finish"> </string>
+    <string name="title_activity_quiz_start">QuizStartActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_category_select">CategorySelectActivity</string>
+    <string name="title_activity_quiz_summary">QuizSummaryActivity</string>
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Find People</item>
+        <item >Photos</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_root_category">RootCategoryActivity</string>
+    <string name="title_activity_solo_challenge">SoloChallenge</string>
+    <string name="title_activity_quiz_challenge">QuizChallengeActivity</string>
+    <string name="title_activity_add_player">AddPlayerActivity</string>
+    <string name="title_activity_challenge_category_selection">ChallengeCategorySelection</string>
+    <string name="title_activity_challenge_instruction">ChallengeInstructionActivity</string>
+    <string name="title_activity_choose_winer">ChooseWinerActivity</string>
+    <string name="title_activity_challenge_result">ChallengeResultActivity</string>
+    <string name="title_activity_challenge">ChallengeActivity</string>
+    <string name="title_activity_challenge_ready">ChallengeReadyActivity</string>
+    <string name="title_activity_get_player_number">GetPlayerNumber</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="image_ids">
+        <item>@drawable/icn_1</item>
+        <item>@drawable/icn_2</item>
+        <item>@drawable/icn_3</item>
+        <item>@drawable/icn_4</item>
+        <item>@drawable/icn_5</item>
+        <item>@drawable/icn_6</item>
+        <item>@drawable/icn_7</item>
+        <item>@drawable/icn_1</item>
+        <item>@drawable/icn_2</item>
+        <item>@drawable/icn_3</item>
+        <item>@drawable/icn_4</item>
+        <item>@drawable/icn_5</item>
+        <item>@drawable/icn_6</item>
+        <item>@drawable/icn_7</item>
+        <item>@drawable/icn_1</item>
+        <item>@drawable/icn_2</item>
+        <item>@drawable/icn_3</item>
+        <item>@drawable/icn_4</item>
+        <item>@drawable/icn_5</item>
+        <item>@drawable/icn_6</item>
+        <item>@drawable/icn_7</item>
+        <item>@drawable/icn_1</item>
+        <item>@drawable/icn_2</item>
+        <item>@drawable/icn_3</item>
+        <item>@drawable/icn_4</item>
+        <item>@drawable/icn_5</item>
+        <item>@drawable/icn_6</item>
+        <item>@drawable/icn_7</item>
+    </string-array>
+
+    <string-array name="latest_mockup_description">
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+        <item>"Ruchi changes the design!"</item>
+    </string-array>
+    <string name="title_activity_challenge_personal">ChallengePersonalActivity</string>
+
+    <string-array name="badge_icons">
+        <item>@drawable/badge_10questions_doctor</item>
+        <item>@drawable/badge_10questions_teacher</item>
+        <item>@drawable/badge_10questions_writer</item>
+        <item>@drawable/badge_10questions_gamer</item>
+        <item>@drawable/badge_10questions_journalist</item>
+        <item>@drawable/badge_10questions_artist</item>
+
+        <item>@drawable/badge_20questions_doctor</item>
+        <item>@drawable/badge_20questions_teacher</item>
+        <item>@drawable/badge_20questions_writer</item>
+        <item>@drawable/badge_20questions_gamer</item>
+        <item>@drawable/badge_20questions_journalist</item>
+        <item>@drawable/badge_20questions_artist</item>
+
+        <item>@drawable/badge_30questions_doctor</item>
+        <item>@drawable/badge_30questions_teacher</item>
+        <item>@drawable/badge_30questions_writer</item>
+        <item>@drawable/badge_30questions_gamer</item>
+        <item>@drawable/badge_30questions_journalist</item>
+        <item>@drawable/badge_30questions_artist</item>
+
+        <item>@drawable/badge_level1_doctor</item>
+        <item>@drawable/badge_level1_teacher</item>
+        <item>@drawable/badge_level1_writer</item>
+        <item>@drawable/badge_level1_gamer</item>
+        <item>@drawable/badge_level1_journalist</item>
+        <item>@drawable/badge_level1_artist</item>
+
+        <item>@drawable/badge_maxlevel_doctor</item>
+        <item>@drawable/badge_maxlevel_teacher</item>
+        <item>@drawable/badge_maxlevel_writer</item>
+        <item>@drawable/badge_maxlevel_gamer</item>
+        <item>@drawable/badge_maxlevel_journalist</item>
+        <item>@drawable/badge_maxlevel_artist</item>
+
+        <item>@drawable/badge_score80_doctor</item>
+        <item>@drawable/badge_score80_teacher</item>
+        <item>@drawable/badge_score80_writer</item>
+        <item>@drawable/badge_score80_gamer</item>
+        <item>@drawable/badge_score80_journalist</item>
+        <item>@drawable/badge_score80_artist</item>
+
+        <item>@drawable/badge_score100_doctor</item>
+        <item>@drawable/badge_score100_teacher</item>
+        <item>@drawable/badge_score100_writer</item>
+        <item>@drawable/badge_score100_gamer</item>
+        <item>@drawable/badge_score100_journalist</item>
+        <item>@drawable/badge_score100_artist</item>
+
+        <item>@drawable/badge_doctor_challenge</item>
+        <item>@drawable/badge_teacher_challenge</item>
+        <item>@drawable/badge_writer_challenge</item>
+        <item>@drawable/badge_gamer_challenge</item>
+        <item>@drawable/badge_journalist_challenge</item>
+        <item>@drawable/badge_artist_challenge</item>
+    </string-array>
+
+    <string-array name="badge_descriptions">
+        <item>"Answer 10 Questions in "</item>
+        <item>"Answer 20 Questions in "</item>
+        <item>"Answer 30 Questions in "</item>
+        <item>"Reach Level 1 in "</item>
+        <item>"Reach Max Level in "</item>
+        <item>"Get a High Score of 80 in "</item>
+        <item>"Get a High Score of 100 in "</item>
+        <item>"Complete a challenge in "</item>
+    </string-array>
+
+    <string-array name="badge_names">
+        <item>"Med School Graduate"</item>
+        <item>"Knowledge Seeker"</item>
+        <item>"Literary"</item>
+        <item>"Expert Gamer"</item>
+        <item>"Researcher"</item>
+        <item>"Art Student"</item>
+
+        <item>"Medical Intern"</item>
+        <item>"University Graduate"</item>
+        <item>"Published Author"</item>
+        <item>"Code Monkey"</item>
+        <item>"Reporter"</item>
+        <item>"Painter"</item>
+
+        <item>"Physician"</item>
+        <item>"Primary Teacher"</item>
+        <item>"Best Seller"</item>
+        <item>"Lead Designer"</item>
+        <item>"Investigator"</item>
+        <item>"Illustrator"</item>
+
+        <item>"Brain Surgeon"</item>
+        <item>"Master Teacher"</item>
+        <item>"Critical Darling"</item>
+        <item>"AAA Creator"</item>
+        <item>"Truth Seeker"</item>
+        <item>"Museum Curator"</item>
+
+        <item>"Chief of Medicine"</item>
+        <item>"PHD Teacher"</item>
+        <item>"Shakespeare"</item>
+        <item>"Shigeru Miyamoto"</item>
+        <item>"Murrow"</item>
+        <item>"Picasso"</item>
+
+        <item>"Emergency Surgery"</item>
+        <item>"Passing Marks"</item>
+        <item>"Short Story "</item>
+        <item>"Let’s Play"</item>
+        <item>"Breaking News "</item>
+        <item>"Abstract Artist"</item>
+
+        <item>"Transplant Surgery"</item>
+        <item>"Ace the Exam"</item>
+        <item>"Pure Poetry"</item>
+        <item>"Speed Run"</item>
+        <item>"Special Investigation"</item>
+        <item>"Speed Painter"</item>
+
+        <item>"Know Your Body"</item>
+        <item>"Small Talk"</item>
+        <item>"One Word Story"</item>
+        <item>"Make a Game"</item>
+        <item>"Small Talk"</item>
+        <item>"Drawing Feelings"</item>
+    </string-array>
+
+
+    <string-array name="doctor_callers">
+        <item>"Med Student"</item>
+        <item>"Intern"</item>
+        <item>"Lab Tech"</item>
+        <item>"Physician"</item>
+        <item>"Surgeon"</item>
+    </string-array>
+
+    <string-array name="teacher_callers">
+        <item>"Student Teacher"</item>
+        <item>"Lunch Lady"</item>
+        <item>"Classroom Referee"</item>
+        <item>"Principal"</item>
+        <item>"Chief Academic"</item>
+    </string-array>
+
+    <string-array name="writer_callers">
+        <item>"Wordsmith"</item>
+        <item>"Beat Poet"</item>
+        <item>"Pithy Quote Writer"</item>
+        <item>"Intellectual Playwright"</item>
+        <item>"Natural Novelist"</item>
+    </string-array>
+
+    <string-array name="gamer_callers">
+        <item>"Casual Gamer"</item>
+        <item>"Health Pack"</item>
+        <item>"Shield Generator"</item>
+        <item>"Extra Ammo"</item>
+        <item>"Infinite Lives"</item>
+    </string-array>
+
+    <string-array name="journalist_callers">
+        <item>"Paper Deliverer"</item>
+        <item>"Internet Blogger"</item>
+        <item>"Investigative Reporting"</item>
+        <item>"News Anchor"</item>
+        <item>"On Location Reporter"</item>
+    </string-array>
+
+    <string-array name="artist_callers">
+        <item>"Art Student"</item>
+        <item>"Bob Ross"</item>
+        <item>"Picasso"</item>
+        <item>"Van Gogh"</item>
+        <item>"Da Vinci"</item>
+    </string-array>
+
+
+    <string name="title_activity_onboarding">OnboardingActivity</string>
+    <string name="title_activity_onboardinding_category_selection">
+        OnboardindingCategorySelectionActivity
+    </string>
+    <string name="title_activity_personal_challenge_forum">PersonalChallengeForumActivity</string>
+    <string name="title_activity_on_boarding_finish">OnBoardingFinishActivity</string>
+    <string name="title_activity_credit">CreditActivity</string>
+
+</resources>

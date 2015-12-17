@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+
+    <color name="fbutton_color_turquoise">#1abc9c</color>
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_emerald">#2ecc71</color>
+    <color name="fbutton_color_nephritis">#27ae60</color>
+    <color name="fbutton_color_peter_river">#3498db</color>
+    <color name="fbutton_color_belize_hole">#2980b9</color>
+    <color name="fbutton_color_amethyst">#9b59b6</color>
+    <color name="fbutton_color_wisteria">#8e44ad</color>
+    <color name="fbutton_color_wet_asphalt">#34495e</color>
+    <color name="fbutton_color_midnight_blue">#2c3e50</color>
+    <color name="fbutton_color_sun_flower">#f1c40f</color>
+    <color name="fbutton_color_orange">#f39c12</color>
+    <color name="fbutton_color_carrot">#e67e22</color>
+    <color name="fbutton_color_pumpkin">#d35400</color>
+    <color name="fbutton_color_alizarin">#e74c3c</color>
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+    <color name="fbutton_color_clouds">#ecf0f1</color>
+    <color name="fbutton_color_silver">#bdc3c7</color>
+    <color name="fbutton_color_concrete">#95a5a6</color>
+    <color name="fbutton_color_asbestos">#7f8c8d</color>
+
+    <color name="trivia_quiz_content_background">#ffffff</color>
+    <color name="trivia_quiz_content_text_color">#275a5c</color>
+    <color name="trivia_quiz_next_button_color">#edb11c</color>
+    <color name="trivia_quiz_next_button_shadow_color">#b48822</color>
+
+    <color name="trivia_main_red">#ef3f37</color>
+    <color name="trivia_main_red_shadow">#ca2e33</color>
+    <color name="trivia_quiz_answer_color">#ffc107</color>
+    <color name="trivia_quiz_answer_shadow">#FFB300</color>
+    <color name="trivia_quiz_summary_button">#3e5fac</color>
+    <color name="trivia_quiz_summary_button_shadow">#4a5b83</color>
+
+    <color name="quiz_answer_right_color">#17a517</color>
+    <color name="quiz_answer_right_shadow">#326c6e</color>
+    <color name="quiz_answer_wrong_color">#b32025</color>
+    <color name="quiz_answer_wrong_shadow">#7e2121</color>
+
+   <!-- <color name="challenge_quiz_button_p1">#F58981</color>
+    <color name="challenge_quiz_button_p1_shadow">#954C46</color>
+    <color name="challenge_quiz_button_p2">#FFD181</color>
+    <color name="challenge_quiz_button_p2_shadow">#507499</color>
+    <color name="challenge_quiz_button_p3">#CEE18B</color>
+    <color name="challenge_quiz_button_p3_shadow">#584A97</color>
+    <color name="challenge_quiz_button_p4">#8CAEDC</color>
+    <color name="challenge_quiz_button_p4_shadow">#709648</color>
+    <color name="challenge_quiz_button_p5">#C489BC</color>
+    <color name="challenge_quiz_button_p5_shadow">#93408D</color>
+    <color name="challenge_quiz_button_p6">#F280AB</color>
+    <color name="challenge_quiz_button_p6_shadow">#926E3F</color>-->
+
+    <color name="challenge_quiz_button_p1">#ffc107</color>
+    <color name="challenge_quiz_button_p1_shadow">#954C46</color>
+    <color name="challenge_quiz_button_p2">#ffc107</color>
+    <color name="challenge_quiz_button_p2_shadow">#507499</color>
+    <color name="challenge_quiz_button_p3">#ffc107</color>
+    <color name="challenge_quiz_button_p3_shadow">#584A97</color>
+    <color name="challenge_quiz_button_p4">#ffc107</color>
+    <color name="challenge_quiz_button_p4_shadow">#709648</color>
+    <color name="challenge_quiz_button_p5">#ffc107</color>
+    <color name="challenge_quiz_button_p5_shadow">#93408D</color>
+    <color name="challenge_quiz_button_p6">#ffc107</color>
+    <color name="challenge_quiz_button_p6_shadow">#926E3F</color>
+
+
+    <color name="disqualify_button_p1">#F58981</color>
+    <color name="disqualify_button_p1_shadow">#F58981</color>
+    <color name="disqualify_button_p2">#FFD181</color>
+    <color name="disqualify_button_p2_shadow">#FFD181</color>
+    <color name="disqualify_button_p3">#CEE18B</color>
+    <color name="disqualify_button_p3_shadow">#CEE18B</color>
+    <color name="disqualify_button_p4">#8CAEDC</color>
+    <color name="disqualify_button_p4_shadow">#8CAEDC</color>
+    <color name="disqualify_button_p5">#C489BC</color>
+    <color name="disqualify_button_p5_shadow">#C499BC</color>
+    <color name="disqualify_button_p6">#F280AB</color>
+    <color name="disqualify_button_p6_shadow">#F280AB</color>
+
+    <color name="category_my_interest_color">#c1f6ff</color>
+    <color name="category_other_interest_color">#f7ffc1</color>
+    <color name="category_new_color">#000000</color>
+    <color name="category_explore_color">#e41c3a</color>
+
+    <color name="custom_progress_background">#ff3c3a3b</color>
+    <color name="custom_progress_doctor">#6dd6da</color>
+    <color name="custom_progress_writer">#b6e2e5</color>
+    <color name="custom_progress_teacher">#ef8995</color>
+    <color name="custom_progress_golden">#edb11c</color>
+    <color name="custom_progress_golden_background">#f3d05b</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <color name="colorPrimary">#FF03A9F4</color>
+    <color name="colorPrimaryDark">#ff0171c9</color>
+    <color name="colorAccent">#FF00E5FF</color>
+    <color name="colorControlNormal">#FF78909C</color>
+    <color name="colorControlActivated">#FF03A9F4</color>
+    <color name="colorSwitchThumbNormal">#FF78909C</color>
+
+    <color name="colorPrimaryQuarter">#3303A9F4</color>
+    <color name="colorPrimaryHalf">#9003A9F4</color>
+    <color name="colorControlNormalHalf">#9078909C</color>
+    <color name="colorControlActivatedHalf">#9003A9F4</color>
+    <color name="colorAccentQuarter">#3300E5FF</color>
+    <color name="colorAccentHalf">#9000E5FF</color>
+
+    <array name="progress_colors_light">
+        <item>#FF03A9F4</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array>
+
+    <array name="progress_colors_dark">
+        <item>#FF00E5FF</item>
+        <item>#ffd81d5a</item>
+        <item>#fff27512</item>
+        <item>#ff63bc34</item>
+    </array>
+
+    <array name="in_colors_light">
+        <item>#4B03A9F4</item>
+        <item>#3303A9F4</item>
+        <item>#1903A9F4</item>
+    </array>
+
+    <array name="in_colors_dark">
+        <item>#4B00E5FF</item>
+        <item>#3300E5FF</item>
+        <item>#1900E5FF</item>
+    </array>
+
+    <color name="tpi_checked">#FFFFFFFF</color>
+    <color name="tpi_unchecked">#99FFFFFF</color>
+
+    <color name="et_divider_focused">@color/colorControlActivated</color>
+    <color name="et_divider_not_focused">#FF6D6D6D</color>
+    <color name="et_divider_disable">#FFC1C1C1</color>
+
+    <color name="color_challenge_own_choice_main_color">#ff7744</color>
+    <color name="color_challenge_stand_color">#883355</color>
+    
+    <color name="color_challenge_button_positive_pink">#ee5566</color>
+    <color name="color_challenge_button_positive_pink_shadow">#993344</color>
+    <color name="color_challenge_button_negative_purple">#887799</color>
+    <color name="color_challenge_button_negative_purple_shadow">#332244</color>
+
+    <color name="color_challenge_player1">#445566</color>
+    <color name="color_challenge_player1_shadow">#334455</color>
+    <color name="color_challenge_player2">#aa4455</color>
+    <color name="color_challenge_player2_shadow">#663344</color>
+    <color name="color_challenge_player3">#558877</color>
+    <color name="color_challenge_player3_shadow">#116644</color>
+    <color name="color_challenge_player4">#826896</color>
+    <color name="color_challenge_player4_shadow">#6e587f</color>
+    <color name="color_challenge_player5">#bb9977</color>
+    <color name="color_challenge_player5_shadow">#887755</color>
+
+    <color name="color_yellow_button">#ffc107</color>
+    <color name="color_gray_button">#607D8B</color>
+    <color name="color_gray_button_shadow">#FF6D6D6D</color>
+    <color name="color_yellow_button_shadow">#FFB300</color>
+
+    <color name="navigation_color">#009688</color>
+    <color name="light_navigation_color">#e0f2f1</color>
+
+    <color name="merica_orange">#ffc107</color>
+    <color name="merica_blue">#2196f3</color>
+    <color name="merica_green">#8bc34a</color>
+    <color name="merica_purple">#673ab7</color>
+
+    <color name="review_gray">#AAAAAA</color>
+
+    <color name="disable_gray">#FF6D6D6D</color>
+    <color name="disable_gray_shadow">#626262</color>
+
+    <color name="category_doctor_color">#2196f3</color>
+    <color name="category_writer_color">#8bc34a</color>
+    <color name="category_teacher_color">#673ab7</color>
+
+</resources>

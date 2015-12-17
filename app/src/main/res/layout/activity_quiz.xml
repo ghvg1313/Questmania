@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_doctor"
+    android:id = "@+id/backgroundView"
+    tools:context="com.akili.etc.triviacrashsaga.QuizActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/infoLayout">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/infoText"
+                android:text="Amoeba"
+                android:textSize="18dp"
+                android:layout_marginTop="0dp"
+                android:background="#36a0a4"
+                android:textColor="#000000"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingLeft="10dp" />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/closeButton"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitXY"
+                android:background="@color/fbutton_color_transparent"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/close" />
+
+        </RelativeLayout>
+
+        <TextSwitcher
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/quizView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textSize="40sp"
+            android:textColor="@color/merica_orange"
+            android:id="@+id/feedBackTextView"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <info.hoang8f.widget.FButton
+                    fbutton:buttonColor="@color/trivia_quiz_next_button_color"
+                    fbutton:shadowColor="@color/trivia_quiz_next_button_shadow_color"
+                    fbutton:shadowEnabled="true"
+                    fbutton:shadowHeight="5dp"
+                    fbutton:cornerRadius="15dp"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:text = "Prev"
+                    android:textColor = "#000000"
+                    android:textSize = "24dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/reviewBackButton" />
+
+                <info.hoang8f.widget.FButton
+                    fbutton:buttonColor="@color/trivia_quiz_next_button_color"
+                    fbutton:shadowColor="@color/trivia_quiz_next_button_shadow_color"
+                    fbutton:shadowEnabled="true"
+                    fbutton:shadowHeight="5dp"
+                    fbutton:cornerRadius="15dp"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/nextButton"
+                    android:text = "Next"
+                    android:textColor = "#000000"
+                    android:textSize = "24dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <info.hoang8f.widget.FButton
+                    fbutton:buttonColor="@color/trivia_quiz_next_button_color"
+                    fbutton:shadowColor="@color/trivia_quiz_next_button_shadow_color"
+                    fbutton:shadowEnabled="true"
+                    fbutton:shadowHeight="5dp"
+                    fbutton:cornerRadius="15dp"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:text = "Next"
+                    android:textColor = "#000000"
+                    android:textSize = "24dp"
+                    android:id="@+id/reviewNextButton"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/reviewBackButton"
+                    android:layout_marginStart="100dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns = "0,1"
+            android:rowHeight = "200dp"
+            android:layout_marginTop="20dp">
+
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="200dp">
+
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <info.hoang8f.widget.FButton
+                        fbutton:buttonColor="@color/trivia_quiz_answer_color"
+                        fbutton:shadowColor="@color/trivia_quiz_answer_shadow"
+                        fbutton:shadowEnabled="true"
+                        fbutton:shadowHeight="5dp"
+                        fbutton:cornerRadius="15dp"
+                        android:layout_width="220dp"
+                        android:layout_height="150dp"
+                        android:id="@+id/answer1"
+                        android:text = "Play!"
+                        android:textColor = "#000000"
+                        android:textSize = "20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_alignParentStart="true"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:capitalize="none"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <info.hoang8f.widget.FButton
+                        fbutton:buttonColor="@color/trivia_quiz_answer_color"
+                        fbutton:shadowColor="@color/trivia_quiz_answer_shadow"
+                        fbutton:shadowEnabled="true"
+                        fbutton:shadowHeight="5dp"
+                        fbutton:cornerRadius="15dp"
+                        android:layout_width="220dp"
+                        android:layout_height="150dp"
+                        android:id="@+id/answer2"
+                        android:text = "Play!"
+                        android:textColor = "#000000"
+                        android:textSize = "20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_column="1"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:capitalize="none" />
+                </RelativeLayout>
+            </TableRow>
+
+            <TableRow android:layout_height="200dp"
+                android:layout_width="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <info.hoang8f.widget.FButton
+                        fbutton:buttonColor="@color/trivia_quiz_answer_color"
+                        fbutton:shadowColor="@color/trivia_quiz_answer_shadow"
+                        fbutton:shadowEnabled="true"
+                        fbutton:shadowHeight="5dp"
+                        fbutton:cornerRadius="15dp"
+                        android:layout_width="220dp"
+                        android:layout_height="150dp"
+                        android:id="@+id/answer3"
+                        android:text = "Play!"
+                        android:textColor = "#000000"
+                        android:textSize = "20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:capitalize="none" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <info.hoang8f.widget.FButton
+                        fbutton:buttonColor="@color/trivia_quiz_answer_color"
+                        fbutton:shadowColor="@color/trivia_quiz_answer_shadow"
+                        fbutton:shadowEnabled="true"
+                        fbutton:shadowHeight="5dp"
+                        fbutton:cornerRadius="15dp"
+                        android:layout_width="220dp"
+                        android:layout_height="150dp"
+                        android:id="@+id/answer4"
+                        android:text = "Play!"
+                        android:textColor = "#000000"
+                        android:textSize = "20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:capitalize="none" />
+                </RelativeLayout>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

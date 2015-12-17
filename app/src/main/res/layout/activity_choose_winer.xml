@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/challenge_background_2"
+    tools:context="com.akili.etc.triviacrashsaga.PartyMode.ChooseWinerActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Winner"
+        android:id="@+id/titleTextView"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Player 1"
+        fbutton:buttonColor="@color/color_challenge_button_positive_pink"
+        fbutton:shadowColor="@color/color_challenge_button_positive_pink_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="8dp"
+        app:v_styleId="@array/button_customSize"/>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        fbutton:buttonColor="@color/disqualify_button_p1"
+        fbutton:shadowColor="@color/disqualify_button_p1_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="8dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Player 2"
+        app:v_styleId="@array/button_customSize"/>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Player 3"
+        fbutton:buttonColor="@color/disqualify_button_p2"
+        fbutton:shadowColor="@color/disqualify_button_p2_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="8dp"
+        app:v_styleId="@array/button_customSize"/>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Player 4"
+        fbutton:buttonColor="@color/disqualify_button_p3"
+        fbutton:shadowColor="@color/disqualify_button_p3_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="8dp"
+        app:v_styleId="@array/button_customSize"/>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/button5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        fbutton:buttonColor="@color/disqualify_button_p4"
+        fbutton:shadowColor="@color/disqualify_button_p4_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="8dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Player 5"
+        app:v_styleId="@array/button_customSize"/>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/button6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        fbutton:buttonColor="@color/disqualify_button_p5"
+        fbutton:shadowColor="@color/disqualify_button_p5_shadow"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="8dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Player 6"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:v_styleId="@array/button_customSize"/>
+
+</LinearLayout>
